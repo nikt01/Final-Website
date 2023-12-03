@@ -34,19 +34,19 @@ var loader = document.getElementById("preloader");
                 return daysRemaining;
             }
         
-            
+                
             function updateCountdown() {
                 const countdownElement = document.getElementById("countdown");
                 const daysRemaining = daysUntilEndOfYear();
         
                 countdownElement.textContent = `Days until the end of the year: ${daysRemaining}`;
             }
-            setInterval(updateCountdown, 1000);
+            setInterval(updateCountdown, 1000); //Miliseconds
         
         
             updateCountdown();
         });
-//Skontaktuj Sie//
+//Contact Us//
            document.getElementById('kontakt-link').addEventListener('click', function(){
       document.getElementById('powiadomienie').style.display = 'block';
     });
@@ -73,8 +73,11 @@ var loader = document.getElementById("preloader");
         }
       });
 
+      
+  
 
+      
 
-
+      
   
     

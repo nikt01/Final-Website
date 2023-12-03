@@ -158,3 +158,18 @@ nav a {
 
     color: greenyellow;
 }
+
+#Findlink:hover{
+    cursor: pointer;
+    box-shadow: 0 0 10px rgb(251, 255, 0)
+    
+}
+
+#Findlink{
+    padding: 10px;
+}
+
+
+#Call{
+    padding: 10px;
+}
