@@ -44,7 +44,7 @@ body {
    /* if you reading this please use the website at 100% not less or more please ;) bcs it will look bad, thank you,  */
 .obramowanie-i9 {
     border: 3px solid rgb(0, 149, 255);
-    margin-left: 400px;  
+    margin-left: 200px;  
     float: left;
     border-radius: 50px;
     transition-duration: 500ms;
@@ -77,6 +77,32 @@ body {
     box-shadow: 0 0 70px rgb(137, 255, 19);
     transition-duration: 300ms;
 }
+.obramowanie-zasilacz{
+    border: 3px solid rgb(251, 255, 0);
+    float: left;
+    margin-left: 15px;
+    border-radius: 50px;
+    transition-duration: 500ms;
+
+}
+
+.obramowanie-zasilacz:hover{
+    box-shadow: 0 0 70px rgb(255, 184, 19);
+    transition-duration: 300ms;
+}
+
+.obramowanie-RAM{
+    border: 3px solid rgb(255, 0, 157);
+    float: left;
+    margin-left: 15px;
+    border-radius: 50px;
+    transition-duration: 500ms;
+}
+.obramowanie-RAM:hover{
+    box-shadow: 0 0 70px rgb(255, 0, 255);
+    transition-duration: 300ms;
+}
+
 /* this calculates how much days is left to the next year */
 body {
     font-family: Arial, sans-serif;
