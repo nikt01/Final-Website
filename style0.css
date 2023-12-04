@@ -1,4 +1,4 @@
-#preloader {
+#preloader { /* Image that load when a web is loading */
     background: #000 url(loader.gif) no-repeat center center;
     background-size: 30%;
     height: 100vh;
@@ -35,9 +35,13 @@ body {
     text-align: center;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
     color: aqua;
+}
+#Texti9{
+        float: left;
+        
+    }
 
-
-}   /* if you reading this please use the website at 100% not less or more please ;) bcs it will look bad, thank you,  */
+   /* if you reading this please use the website at 100% not less or more please ;) bcs it will look bad, thank you,  */
 .obramowanie-i9 {
     border: 3px solid rgb(0, 149, 255);
     margin-left: 400px;  
@@ -138,10 +142,6 @@ nav a {
 #SocialMedia {
     display: none;
 }
-#Texti9{
-    float: left;
-    
-}
 #About{
     padding: 0px;
     color: rgb(0, 174, 255);
@@ -172,7 +172,7 @@ nav a {
 
 
 
-#kontakt-link{
+#kontakt-link{ /* Writeto us */
     transition-duration: 500ms;
 }
 #kontakt-link:hover{
@@ -183,18 +183,18 @@ nav a {
 
 }
 
-
+/* Our Social Media */
 #KontaktMedia{
     transition-duration: 500ms;
 }
 
-#KontaktMedia:hover{
+#KontaktMedia:hover{ 
     cursor: pointer;
     box-shadow: 0 0 10px red;
     transition-duration: 500ms;
     border-radius: 20px;
 
-}
+} 
 
 
 #powiadomienie{
@@ -203,7 +203,7 @@ nav a {
 }
 
 
-#Call{
+#Call{ /* Call us */
     cursor: pointer;
     padding: 10px;
     transition-duration: 500ms;
