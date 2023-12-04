@@ -146,6 +146,7 @@ nav a {
     padding: 0px;
     color: rgb(0, 174, 255);
     transition-duration: 500ms;
+    border-radius: 20px;
 
 }
 #About:hover{
@@ -159,28 +160,43 @@ nav a {
     color: mintcream;
     margin: 10px;
     transition-duration: 500ms;
+    border-radius: 20px;
 
 }
 #Services:hover{
     cursor: pointer;
-    box-shadow: 0 0 10px gray;
+    box-shadow: 0 0 10px rgb(255, 255, 255);
     transition-duration: 500ms;
 }
 
 
 
+
+#kontakt-link{
+    transition-duration: 500ms;
+}
 #kontakt-link:hover{
     cursor: pointer;
     box-shadow: 0 0 10px rgb(0, 255, 136);
+    border-radius: 20px;
+    transition-duration: 500ms;
+
 }
 
 
-    
+#KontaktMedia{
+    transition-duration: 500ms;
+}
 
 #KontaktMedia:hover{
     cursor: pointer;
-    box-shadow: 0 0 10px red
+    box-shadow: 0 0 10px red;
+    transition-duration: 500ms;
+    border-radius: 20px;
+
 }
+
+
 #powiadomienie{
 
     color: greenyellow;
