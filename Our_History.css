@@ -1,0 +1,28 @@
+body {
+    background-image: url(MapTexture.jpg);
+    background-size: 100% 100%;
+    margin: 0;
+    padding: 0;
+    height: 100vh; 
+    background-color: turquoise; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content {
+    text-align: center;
+    
+    border: 5px;
+    
+}
+.text-frame {
+    border: 5px solid rgb(219, 198, 62); 
+    padding: 5px; 
+    width: 1200px;
+    margin: 20px auto; 
+    background-color: rgba(255, 255, 255, 0.577);
+}
+button{
+    border-radius: 10px;
+}
