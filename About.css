@@ -23,3 +23,6 @@ body {
     margin: 20px auto; 
     background-color: lightgray;
 }
+button{
+    border-radius: 10px;
+}

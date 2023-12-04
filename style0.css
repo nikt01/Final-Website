@@ -42,16 +42,36 @@ body {
     border: 3px solid rgb(0, 149, 255);
     margin-left: 400px;  
     float: left;
+    border-radius: 50px;
+    transition-duration: 500ms;
+
 }
+.obramowanie-i9:hover{
+    box-shadow: 0 0 70px rgb(48, 174, 191);
+    transition-duration: 300ms;
+}
+
 .obramowanie-GIGABYTE {
     border: 3px solid rgb(195, 0, 255);
     float: left;
     margin-left: 15px;
+    border-radius: 50px;
+    transition-duration: 500ms;
+}
+.obramowanie-GIGABYTE:hover{
+    box-shadow: 0 0 70px rgb(230, 0, 255);
+    transition-duration: 300ms;
 }
 .obramowanie-3060 {
     border: 3px solid rgb(115, 255, 0);
     float: left;
     margin-left: 15px;
+    border-radius: 50px;
+    transition-duration: 500ms;
+}
+.obramowanie-3060:hover{
+    box-shadow: 0 0 70px rgb(137, 255, 19);
+    transition-duration: 300ms;
 }
 /* this calculates how much days is left to the next year */
 body {
@@ -73,6 +93,9 @@ header {
     text-align: center;
     
 }
+/*to that moment*/
+
+
 #powiadomienie {
     display: none;
 }
@@ -122,29 +145,33 @@ nav a {
 #About{
     padding: 0px;
     color: rgb(0, 174, 255);
+    transition-duration: 500ms;
 
 }
 #About:hover{
     cursor: pointer;
-    box-shadow: 0 0 10px rgb(0, 72, 255)
+    box-shadow: 0 0 10px rgb(0, 72, 255);
+    transition-duration: 500ms;
     
 }
 #Services{
     padding: 0px;
     color: mintcream;
     margin: 10px;
+    transition-duration: 500ms;
 
 }
 #Services:hover{
     cursor: pointer;
-    box-shadow: 0 0 10px gray
+    box-shadow: 0 0 10px gray;
+    transition-duration: 500ms;
 }
 
 
 
 #kontakt-link:hover{
     cursor: pointer;
-    box-shadow: 0 0 10px rgb(0, 255, 136)
+    box-shadow: 0 0 10px rgb(0, 255, 136);
 }
 
 
@@ -157,16 +184,6 @@ nav a {
 #powiadomienie{
 
     color: greenyellow;
-}
-
-#Findlink:hover{
-    cursor: pointer;
-    box-shadow: 0 0 10px rgb(251, 255, 0)
-    
-}
-
-#Findlink{
-    padding: 10px;
 }
 
 

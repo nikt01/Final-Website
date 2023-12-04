@@ -17,3 +17,6 @@ background-size: 100% ;
     color: black;
     background-color: lightsalmon;
 }
+button{
+    border-radius: 10px;
+}
