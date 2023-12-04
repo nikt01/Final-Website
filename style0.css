@@ -204,5 +204,13 @@ nav a {
 
 
 #Call{
+    cursor: pointer;
     padding: 10px;
+    transition-duration: 500ms;
+    
+}
+#Call:hover{
+    box-shadow: 0 0 10px magenta;
+    border-radius: 20px;
+    transition-duration: 500ms;
 }
